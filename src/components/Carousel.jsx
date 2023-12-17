@@ -47,7 +47,7 @@ function Carousel() {
 
   return (
     <>
-      <div id="projects" className="h-screen bg-brand-beige pt-20">
+      <div id="projects" className="min-h-screen h-full bg-brand-beige pt-20">
         <h2 className="text-4xl font-lexend font-bold ml-36">Projects</h2>
         <Swiper
           effect={"coverflow"}
