@@ -12,9 +12,9 @@ const Header = () => {
 
   return (
     <header>
-      <nav className="md:hidden fixed bottom-0 left-0 right-0 mx-4 mb-4 z-20">
+      <nav className="md:hidden fixed bottom-0 left-0 right-0 mx-4 mb-4 z-20 shadow-md ">
         <div className="flex justify-center">
-          <div className="flex justify-center items-center mb-2 rounded-full bg-brand-white w-fit p-2">
+          <div className="flex fixed top-2 left-2 shadow-md items-center mb-2 rounded-full bg-brand-white w-fit p-2">
             <img
               className="h-12 cursor-pointer"
               src={Logo}
@@ -46,7 +46,7 @@ const Header = () => {
         </ul>
       </nav>
 
-      <nav className="hidden md:flex justify-between bg-brand-white items-center fixed top-0 left-0 right-0 px-40 z-20">
+      <nav className="hidden md:flex justify-between bg-brand-white items-center fixed top-0 left-0 right-0 px-40 z-20 shadow-md">
         <div>
           <img
             className="h-20 cursor-pointer"
