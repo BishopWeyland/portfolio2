@@ -25,7 +25,7 @@ function Footer() {
           </a>
           <a
             className="text-white ml-7"
-            href="linkedin.com/in/håkon-willand-engebretsen-03148a229"
+            href="https://linkedin.com/in/håkon-willand-engebretsen-03148a229"
           >
             <FaLinkedin size={40} />
           </a>
