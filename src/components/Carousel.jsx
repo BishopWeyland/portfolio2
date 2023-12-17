@@ -74,7 +74,8 @@ function Carousel() {
                   index === 0 ? SlideOne : index === 1 ? SlideTwo : SlideThree
                 }
                 alt={`Project: ${project.title}`}
-                className=" rounded-2xl"
+                className="rounded-2xl"
+                loading="lazy"
               />
               <div
                 className="text-container"
