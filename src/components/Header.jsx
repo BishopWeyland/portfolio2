@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/hwe.png";
+import LogoSM from "../assets/hwe2.png";
 
 const Header = () => {
   const scrollToSection = (sectionId) => {
@@ -12,19 +13,19 @@ const Header = () => {
 
   return (
     <header>
-      <nav className="md:hidden fixed bottom-0 left-0 right-0 mx-4 mb-4 z-20 shadow-md ">
+      <nav className="md:hidden fixed bottom-0 left-0 right-0 mx-4 mb-4 z-20 ">
         <div className="flex justify-center">
-          <div className="flex fixed top-2 left-2 shadow-md items-center mb-2 rounded-full bg-brand-white w-fit p-2">
+          <div className="flex fixed top-2 right-2 items-center mb-2 rounded-full bg-brand-blue w-fit p-2">
             <img
               className="h-12 cursor-pointer"
-              src={Logo}
+              src={LogoSM}
               alt="Logo"
               onClick={() => scrollToSection("hero")}
             />
           </div>
         </div>
 
-        <ul className="flex justify-between bg-brand-white p-3 rounded-md font-lexend font-bold">
+        <ul className="flex justify-between bg-brand-blue fixed bottom-0 left-0 right-0 p-3 text-white font-lexend font-bold">
           <li
             onClick={() => scrollToSection("projects-sm")}
             className="cursor-pointer"
